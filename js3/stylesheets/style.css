@@ -1,0 +1,48 @@
+/* line 2, ../sass/style.scss */
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+/* line 8, ../sass/style.scss */
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+/* line 14, ../sass/style.scss */
+.h1 {
+  color: var(--base);
+}
+
+/* line 18, ../sass/style.scss */
+body {
+  text-align: center;
+}
+
+/* line 22, ../sass/style.scss */
+body {
+  background: #193549;
+  color: white;
+  font-family: 'helvetica neue', sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+/* line 30, ../sass/style.scss */
+.controls {
+  margin-bottom: 50px;
+}
+
+/* line 34, ../sass/style.scss */
+a {
+  color: var(--base);
+  text-decoration: none;
+}
+
+/* line 39, ../sass/style.scss */
+input {
+  width: 100px;
+}
